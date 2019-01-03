@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--adding items for 3 dot menu-->
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsMenu"
+        app:showAsAction="never"/>
+    <item
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/logoutMenu"
+        app:showAsAction="never"/>
+
+    <!--adding items in the actionbar, for this we will add some icons to display-->
+    <!--we will set the showAsAction to display the item in the actionbar instead of 3 dor menu-->
+
+   <!-- <item
+        android:title="Item3"
+        android:id="@+id/title3"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Item4"
+        android:id="@+id/title4"
+        android:icon="@drawable/share_icon"
+        app:showAsAction="always"/>
+-->
+
+</menu>
