@@ -16,13 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/main_title"
-        android:contentDescription="Signals from Mars title image" />
+        android:contentDescription="@string/signals_from_mars_title_image" />
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="start your adventure"
+        android:text="@string/start_your_adventure"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -31,12 +31,12 @@
         android:id="@+id/nameEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
-        android:inputType="textCapWords|textPersonName"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/startButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:hint="Enter your name"
-        android:maxLength="30"/>
+        android:hint="@string/enter_your_name"/>
 
 </android.support.constraint.ConstraintLayout>
